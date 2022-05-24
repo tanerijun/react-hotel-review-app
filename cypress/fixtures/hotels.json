@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Downtown Hotel (***)",
+    "thumbnail": "https://picsum.photos/id/369/400/400"
+  },
+  {
+    "id": 2,
+    "title": "Fairytail castle (*****)",
+    "thumbnail": "https://picsum.photos/id/1040/400/400"
+  },
+  {
+    "id": 3,
+    "title": "Local Bed and Breakfast (**)",
+    "thumbnail": "https://picsum.photos/id/437/400/400"
+  }
+]

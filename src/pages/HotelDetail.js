@@ -1,4 +1,4 @@
-import { useEffect, useContext } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import styled from 'styled-components';
 import { useNavigate, useParams } from 'react-router-dom';
 import NavBar from '../components/NavBar/NavBar';
@@ -23,8 +23,8 @@ function HotelDetail() {
   const { reviews, fetchReviews } = useContext(ReviewsContext);
 
   useEffect(() => {
-    hotelId && !hotel.id && fetchHotel(hotelId);
-  }, [fetchHotel, hotel.id, hotelId]);
+    hotelId && fetchHotel(hotelId);
+  }, [fetchHotel, hotelId]);
 
   useEffect(() => {
     hotelId && !reviews.length && fetchReviews(hotelId);
