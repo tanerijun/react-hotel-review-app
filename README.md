@@ -1,3 +1,3 @@
-Chapter 6 or Roy Derk's book (2nd Edition)
+## Experiment
 
-Learning about testing (including Cypress)
+Learning about unit testing (including Cypress)
